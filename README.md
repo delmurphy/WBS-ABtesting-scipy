@@ -109,6 +109,25 @@ Contains raw experimental data.
 
 ---
 
+This project was developed using Python 3.13.
+
+To recreate the environment:
+
+```bash
+python -m venv .venv
+
+# macOS / Linux
+source .venv/bin/activate
+
+# Windows
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+```
+
+
+---
+
 ## Summary of Key Insights
 
 ![Barplot showing the CTRs of each version](images/CTR.png)
